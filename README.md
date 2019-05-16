@@ -7,5 +7,5 @@ To add/remove plugins modify the Dockerfile and build your own version.
 ### Run the image locally
 
 ```bash
-docker run -d --name sonar -p 9000:9000 --rm cesdperez/docker-sonarqube
+docker run -d --name sonar -p 9000:9000 --rm cesdperez/sonarqube-spotbugs
 ```
